@@ -1,0 +1,41 @@
+{
+  "name": "invoicely",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "next": "^16.0.0",
+    "better-auth": "latest",
+    "pg": "^8.11.3",
+    "drizzle-orm": "^0.30.10",
+    "@vercel/blob": "latest",
+    "axios": "^1.6.5",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "recharts": "^2.10.3",
+    "date-fns": "^2.30.0",
+    "tailwindcss": "^4.0.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/pg": "^8.11.3",
+    "tailwindcss": "^4.0.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16"
+  }
+}
